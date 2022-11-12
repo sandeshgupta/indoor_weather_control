@@ -1,7 +1,7 @@
 # indoor_weather_control
 
 
-How to run:
+## How to run:
 
 1. Ensure that all hardware is connected (Speaker, Sensor)
 
@@ -9,7 +9,7 @@ How to run:
 
 	```pip install -r requirements.txt```
 
-3. Start continuous monitoring of temperature
+3. Start `continuous_monitoring.py` for continuous monitoring of temperature
 	- Add telegram token `TOKEN_NOTIF` for the monitoring channel in file `continuous_monitoring.py`
 	- Add telegram token `TOKEN_CONTROL` for the control channel in file `continuous_monitoring.py`
 	- Add `CHAT_ID` of the telegram user in file `continuous_monitoring.py`
